@@ -1,0 +1,35 @@
+
+
+html {
+    margin: auto;
+}
+
+body {
+    background-color: rgba(0, 0, 0, 0.199);
+}
+
+.form {
+    position: inline block;
+    margin: 10% 30%;
+    flex-direction: column;
+    font-size: large;
+    table-layout: fixed;
+    align-items: center;
+    padding: 5em;
+    border-style: solid;
+    border-radius: 25px;
+    background-color: antiquewhite;
+}
+
+table {
+    align-content: center;
+}
+
+.form_heading {
+    font-size: larger;
+    text-align: center;
+}
+
+.title {
+    font-size: xx-large;
+}

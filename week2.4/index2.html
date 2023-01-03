@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./CSS/style2.css">
+    <title>Scheduling Appointment</title>
+</head>
+<body>
+    <div class="form">
+        <div class="form_heading">
+            <div class="title">Schedule an Appointment at <strong>Sam's Shop</strong></div>
+            <div class="description">Please fill out this form in its entirety so we can best assist you</div>
+        </div>
+    <form action="">
+        <table>
+            <tr>
+                <td><label for="name">Name:</label></td>
+                <td><input type="text" name="name" id="name" placeholder="First and Last Name"></td>
+            </tr>
+            <tr>
+                <td><label for="email">Email:</label></td>
+                <td><input type="email" name="email" id="email" placeholder="Example@example.org"></td>
+            </tr>
+            <tr>
+                <td><label for="message">Message:</label></td>
+                <td><input type="message" name="message" id="message" placeholder="Type your message here"></td>
+            </tr>
+            <tr>
+                <td><label for="service">Service:</label></td>
+                <td><input type="text" id="service" list="service-list">
+                <datalist id="service-list">
+                    <option value="Oil Change"></option>
+                    <option value="Brake Service"></option>
+                    <option value="Alignment"></option>
+                    <option value="Battery"></option>
+                    <option value="Suspension"></option>
+                    <option value="Lights"></option>
+                    <option value="Warning Lights"></option>
+                    <option value="Tires"></option>
+                    <option value="Coolant Flush"></option>
+                    <option value="Brake Flush"></option>
+                </datalist>
+                </td>
+            </tr>
+            <tr>
+                <td><label for="subscribe">Email Me specials:</label></td>
+                <td><input type="checkbox" id="subscribe"></td>
+            </tr>
+            <tr>
+                <td><button type="submit">Submit</button></td>
+                <td><button type="reset">Reset</button></td>
+            </tr>
+        </table>
+    </form>
+    </div>
+    <div class="footer">
+        <div class="copy"><span>&#169;</span>Copyright, All Rights Reserved</div>
+    </div>
+</body>
+</html>
