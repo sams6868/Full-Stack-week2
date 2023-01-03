@@ -1,0 +1,33 @@
+
+
+html {
+    margin: auto;
+}
+
+body {
+    background-color: blue;
+}
+
+
+
+.form {
+    position: inline block;
+    margin: 10% 35%;
+    flex-direction: column;
+    font-size: larger;
+    text-align: center;
+    table-layout: fixed;
+    align-items: center;
+    padding: 5em;
+    border-style: solid;
+    border-radius: 25px;
+    background-color: aqua;
+}
+
+.form_heading {
+    font-size: larger;
+}
+
+.title{
+    font-size: xx-large;
+}
